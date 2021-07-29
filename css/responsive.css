@@ -1,0 +1,159 @@
+/* XL Device :1200px. */
+@media (min-width: 1450px) and (max-width: 1600px) {
+
+	 
+}
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.articles-img .country {	
+		left: 188px;
+	}
+	.all-photos a {
+		width: 15%;
+		margin: 1px 2px;
+		padding: 2px 0;
+	}
+	.single-check h4 a {
+		font-size: 22px;
+	}
+	ul.social-followers li:last-child {
+		margin-top: 68px;
+	}
+	.trips-trending-1 {
+		height: 100%;
+		width: 104%;
+	}
+	.trips-right-item {
+		margin-bottom: 10px;
+	}
+	.photos-item-1::before{
+		height: 100%;
+	}
+	.photos-item-2::before{
+		height: 100%;
+	}
+	.photos-item-3::before{
+		height: 100%;
+	}
+	.photos-item-4::before{
+		height: 100%;
+	}
+	.photos-item-5::before{
+		height: 100%;
+	}
+	.subscribe-box input {
+		font-size: 14px;
+	}
+}
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.all-photos a {
+		width: 18%;
+	}
+	.articles-img .country {
+		left: 222px;
+	}
+	.weather {
+		text-align: center;
+	}
+	h4.footer-title {
+		font-size: 13px;
+	}
+	.footer-post li {
+		width: 28%;
+	}
+	.footer-tags li a {
+		padding: 2px 4px;
+		font-size: 11px;
+	}
+	.footer-destination li {
+		font-size: 12px;
+	}
+	.footer-destination li span {
+		font-size: 10px;
+	}
+	p.copyright {
+		font-size: 12px;
+	}
+	ul.social-icon {
+		font-size: 12px;
+	}
+}
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.home-slider-item{
+		margin-bottom: 30px;
+	}
+	ul.trips-menu li a {
+		padding: 6px 4px; 
+	}
+	.single-check h4 a {
+		font-size: 21px;
+		 
+	}
+	.single-check {
+		margin-bottom: 20px;
+	}
+	.weather {
+		text-align: center;
+	}
+	.footer .col-20:nth-child(3) {
+		display: none;
+	}
+	.footer .col-20:nth-child(4) {
+		display: none;
+	}
+	.footer .col-20{
+		width: 33.33%;
+	}
+	.footer-tags {
+		margin-bottom: 30px;
+	}
+
+	.footer-post {
+		margin-bottom: 30px;
+	}
+	p.copyright {
+		font-size: 9px;
+	}
+	.articles-img .country {
+		left: 378px;
+	}
+	header.main-menu {
+		padding: 0 30px;
+	}
+	
+	header.main-menu .nav-item {
+		padding-top: 10px;
+	}
+	.articles-img span.country {
+		display: none;
+	}
+	/* section.trend-popular-follow-recent
+	.col-4:nth-child(3) {
+		display: none;
+	}
+	.trend-popular-follow-recent
+	.col-4{
+		width: 50%;
+	} */
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.articles-img span.country {
+		display: block;
+	}
+	.articles-img span.country {
+		left: 340px;
+	}
+	
+}

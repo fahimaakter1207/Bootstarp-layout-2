@@ -1,0 +1,1096 @@
+/* ==========================================================================
+    Template Name: Morix - Sass & App Landing HTML5 Template
+    Template URI: http://dreamroadtech.com/templates/morix-preview/
+    Description: Morix - Sass & App Landing HTML5 Template
+    Author: dreamroadtech
+    Author URI: http://www.dreamroadtech.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Roboto:wght@400;500&display=swap');
+
+ /*...................................
+    1. Template default css
+................................... */
+   
+html {
+    overflow-x: hidden;
+}
+      
+body{
+    background-color:#C1CFAF ;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Average Sans', sans-serif;
+}
+   
+a,
+    .button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    }
+   
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+ 
+ul {
+     list-style: outside none none;
+     margin: 0px;
+     padding: 0px;
+}
+   
+li {
+     list-style: none;
+     display: inline-block;
+     cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+   
+.form-control:focus {
+    outline: 0;
+    box-shadow:none;
+}
+
+.p-30{
+    padding: 30px;
+}
+.mb-50{
+    margin-bottom: 50px !important;
+}
+   
+.mb-30{
+    margin-bottom: 30px ;
+}
+   
+.pb-50{
+    padding-bottom: 50px !important;
+}
+   
+/* ==========================================================================
+    Author's custom styles
+========================================================================== */
+   
+
+/* ======= 01. Logo & Menu ======= */
+.body-main-content{
+    background-color: #fff;
+}
+.logo {
+    padding: 40px 0;
+}
+.logo a{
+    display: block;
+    text-align: center;
+}
+header.main-menu {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.container.body-main-content {
+    padding: 0;
+}
+.main-menu .nav-link{
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2c2f34 !important;
+    text-transform: uppercase;
+    padding: 20px 20px !important;
+}
+a.nav-link.follow {
+    font-size: 10px;
+    padding-top: 26px !important;
+}
+
+a.nav-link.icon {
+    padding: 20px 8px !important;
+}
+
+li.nav-item.active .nav-link {
+    background: #01B7F2;
+    color: #fff !important;
+}
+header.main-menu .navbar {
+    padding: 0;
+}
+.main-menu .nav-link:hover{
+    background-color: #01B7F2;
+    color: #fff !important;
+}
+
+/* ======= 02. Home Slider ======= */
+
+.home-slider {
+    padding: 30px;
+}
+.home-slider-item.item-01{
+    background: url("../images/home-slider/1.jpg") no-repeat center/cover;
+}
+.home-slider-item.item-02{
+    background: url("../images/home-slider/2.jpg") no-repeat center/cover;
+}
+.home-slider-item.item-03{
+    background: url("../images/home-slider/3.jpg") no-repeat center/cover;
+}
+.home-slider-item.item-04{
+    background: url("../images/home-slider/4.jpg") no-repeat center/cover;
+}
+
+.home-slider-item {
+    padding: 20px;
+    padding-top: 250px;
+    position: relative;
+    z-index: 1;
+}
+.home-slider-item::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: -1;
+}
+span.country {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #01b6f1;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+span.date {
+    color: #fff;
+    font-size: 13px;
+}
+
+.home-slider-item h4 a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.home-slider .col-lg-3{
+    padding: 3px;
+}
+
+/* <!-- ========= 03. My Trips-Photos-About Start ========== --> */
+
+.trips-photos-about{
+    padding-left: 30px;
+}
+.trips{
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+
+.trips-trending-1{
+    background: url('../images/trips-photos/travel-16-780x470.jpg')
+    no-repeat center/cover;
+    height: 95%;
+    width: 100%;
+    padding: 290px 20px 20px 20px;
+    color: #fff;
+    background-color: rgba(0 , 0 , 0 , .9);
+    position: relative;
+    z-index: 1;
+}
+.trips-trending-1::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .4;
+    z-index: -1;
+}
+
+.location{
+    position: absolute;
+    content: '';
+    top: 258px;
+    left: 23px;
+    background-color: #01b6f1;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 12px;
+    text-transform:capitalize ;
+}
+.trips-trending h3 a{
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 10px 0;
+    font-family: 'Average Sans', sans-serif;
+    display: inline-block;
+} 
+
+.title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #01B7F2;
+    display: inline-block;
+}
+
+ul.trips-menu {
+    float: right;
+}
+.title-bar{
+     
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.title-bar::before{
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: 0px;
+    height: 2px;
+    width: 50px;
+    background-color: #01B7F2;
+}
+ul.trips-menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul.trips-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #2c2f34;
+    padding: 6px 7px;
+    border-radius: 3px;
+    transition: .3s;
+}
+ul.trips-menu li a:hover{
+    background-color: #01B7F2;
+    color: #fff;
+}
+a.arrow {
+    border: 1px solid #ddd;
+}
+a.arrow i {
+    font-size: 8px;
+}
+.trips-trending-footer{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.trips-trending-footer div{
+    display: inline-block;
+}
+.comment-like{
+    float: right;
+}
+span.time {
+    padding-left: 2px;
+}
+
+span.time i {
+    padding-right: 3px;
+}
+
+span.author i {
+    padding-right: 2px;
+}
+
+span.like {
+    padding-left: 4px;
+    color: #ff8d34;
+}
+
+
+.photos-item-1 {
+    padding-left: 128px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.photos-item-1::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 112%;
+    width: 117px;
+    color: #ddd;
+    background: url('../images/trips-photos/1.jpg')
+    no-repeat center/cover;
+}
+.photos-item-2 {
+    padding-left: 128px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.photos-item-2::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 112%;
+    width: 117px;
+    color: #ddd;
+    background: url('../images/trips-photos/2.jpg')
+    no-repeat center/cover;
+}
+.photos-item-3 {
+    padding-left: 128px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.photos-item-3::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 112%;
+    width: 117px;
+    color: #ddd;
+    background: url('../images/trips-photos/3.jpg')
+    no-repeat center/cover;
+}
+.photos-item-4 {
+    padding-left: 128px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.photos-item-4::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 112%;
+    width: 117px;
+    color: #ddd;
+    background: url('../images/trips-photos/4.jpg')
+    no-repeat center/cover;
+}
+.photos-item-5 {
+    padding-left: 128px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.photos-item-5::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 112%;
+    width: 117px;
+    color: #ddd;
+    background: url('../images/trips-photos/5.jpg')
+    no-repeat center/cover;
+}
+ 
+.trips-right-item span{
+    font-size: 12px;
+    color: #767676;
+}
+.trips-right-item h4 {
+    line-height: 13px;
+}
+.trips-right-item h4 a{
+    font-family: 'Average Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c2f34;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.trips-right-item h4 a:hover{
+    color: #01B7F2;
+}
+
+/* photos css */
+
+.photos{
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
+.all-photos a{
+    width: 15.2%;
+    margin: 5px 3px;
+    display: inline-block;
+    position: relative;
+}
+.all-photos a::before{
+    position: absolute;
+    content: '\f03e';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+    transition: .5s;
+    background: rgba(0, 0, 0,0);
+}
+ 
+.all-photos a img:hover::before{
+    background: rgba(0, 0, 0,.8);
+    visibility: visible;
+    transition: .5s;
+     
+}
+
+/* About Css */
+.about-me,
+.subscribe-box{
+    padding: 30px 30px 48px 30px;
+    margin-right: 30px;
+    margin-left: -10px;
+    margin-bottom: 62px;
+    border: 1px solid #ddd;
+}
+.about-me .title{
+    color: #2c2f34;
+}
+.about-me .title-bar::before{
+    background: #2c2f34  ;
+}
+.about-me-content {
+    text-align: center;
+}
+
+.about-me-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 0 0 0;
+}
+
+.about-me-content p {
+    font-size: 12px;
+}
+
+/* subscribe box */
+.subscribe-box {
+    text-align: center;
+}
+.subscribe-box span i {
+    display: block;
+    font-size: 40px;
+    color: #757575;
+}
+
+.subscribe-box span {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #757575;
+}
+
+.subscribe-box h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.subscribe-box input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 5px 5px 40px;
+    color: #333;
+   
+}
+.subscribe-box form{
+    position: relative;
+}
+.subscribe-box form::before{
+    position: absolute;
+    content: '\f0e0';
+    top: 4px;
+    left: 8px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: #757575;
+    border-style: none;
+}
+
+.subscribe-box button {
+    width: 100%;
+    background: #01B7F2;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: .3s;
+}
+.subscribe-box button:hover{
+    opacity: .9;
+    color: #fff;
+}
+
+/* <!-- ========= 04. Check Start ========== --> */
+
+.single-check{
+    padding: 300px 20px 20px 20px;
+    position: relative;
+    z-index: 1;
+}
+.single-check::before{
+    position:absolute ;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+.single-check-1{
+    background: url('../images/travel-14-780x470.jpg')
+    no-repeat center/cover ;
+}
+
+.single-check-2{
+    background: url('../images/travel-13-780x470.jpg')
+    no-repeat center/cover ;
+}
+
+.single-check .date {
+    font-size: 14px;
+}
+
+.single-check h4 a {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 43px;
+    color: #fff;
+}
+
+/* section#check 
+.col-lg-6 
+.single-check-1 {
+    margin-right: -11px;
+}
+
+section#check 
+.col-lg-6 
+.single-check-2 {
+    margin-left: -11px;
+} */
+
+/* <!-- =========  05. Trending CSS ========== --> */
+.trending{
+    border: 1px solid #ddd;
+}
+.trips-trending-2{
+    background: url('../images/travel-15-780x470.jpg')
+    no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    padding: 290px 20px 20px 20px;
+    color: #fff;
+    background-color: rgba(0 , 0 , 0 , .9);
+    position: relative;
+    z-index: 1;
+}
+.trips-trending-2::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .4;
+    z-index: -1;
+}
+
+/* trending-box css */
+
+.trending-box img {
+    height: 125px;
+    width: 100%;
+}
+.trending-box {
+    margin-top: 30px;
+}
+.trending-box .trips-trending-footer{
+    color: #757575;
+    padding-top: 5px;
+}
+.trending-box h5 a {
+    font-size: 15px;
+    margin-top: 7px;
+    font-weight: 600;
+    display: inline-block;
+    color: #2c2f34;
+}
+
+.banner {
+    padding: 40px 0;
+}
+.banner img {
+    height: 100px;
+    width: 100%;
+}
+
+ /* Recent Article  */
+ .recent-articles {
+    border: 1px solid #ddd;
+}
+ .articles-img{
+    width: 100%;
+    height: 190px;
+    position: relative;
+    cursor: pointer;
+ }
+
+.articles-img-1{
+    background: url(../images/articles/1.jpg) no-repeat center/cover;
+}
+.articles-img-2{
+    background: url(../images/articles/2.jpg) no-repeat center/cover;
+}
+.articles-img-3{
+    background: url(../images/articles/3.jpg) no-repeat center/cover;
+}
+.articles-img-4{
+    background: url(../images/articles/4.jpg) no-repeat center/cover;
+}
+.articles-img-5{
+    background: url(../images/articles/5.jpg) no-repeat center/cover;
+}
+.articles-img-6{
+    background: url(../images/articles/6.jpg) no-repeat center/cover;
+}
+.articles-img .country{
+    position: absolute;
+    height:27px;
+    width: 50px;
+    top: 148px;
+    left: 260px;
+}
+.articles-img i {
+    position: absolute;
+    font-size: 60px;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    transition: .5s;
+    opacity: 0;
+}
+.articles-img i:hover{
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 60px;
+    margin-top: -20px;
+    margin-left: -20px;
+    opacity: 1;
+}
+.articles-img::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0;
+    transition: .5s;
+}
+.articles-img:hover::before{
+    opacity: .5;
+}
+
+.articles-single 
+.trips-trending-footer
+{
+    color: #757575;
+    margin-top: 10px;
+}
+.articles-single h3 a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #2c2f34;
+    display: inline-block;
+    transition: .3s;
+}
+.articles-single h3 a:hover{
+    color: #01b6f1;
+}
+.articles-single p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 21px;
+}
+.articles-single{
+    padding-bottom: 30px ;
+}
+
+.load-more {
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    border:1px solid #ddd;
+    color: #2c2f34;
+}
+.load-more:hover{
+    color: #01b6f1;
+}
+
+/* weather css */
+
+.weather{
+    padding-top: 40px;
+}
+
+/* follow me css */
+
+.follow-me .title{
+    color: #2c2f34;
+    font-family: 15px;
+}
+.follow-me .title-bar::before{
+    background: #2c2f34;
+}
+ul.social-followers li a {
+    background: #215ace;
+    color: #fff;
+    height: 55px;
+    width: 55px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 24px;
+    margin: 0 5px;
+    transition: .3s ;
+    position: relative;
+}
+ul.social-followers li a:hover{
+    opacity: .5;
+}
+ul.social-followers li:nth-child(2) a{
+    background: #43b8eb;
+}
+ul.social-followers li:nth-child(3) a{
+    background: #e91919;
+}
+ul.social-followers li:nth-child(4) a{
+    background: #e02790;
+}
+
+ul.social-followers li a span{
+    position: absolute;
+    color: #757575;
+    font-size: 13px;
+    top: 63px;
+    left: 15px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-left: -15px;
+}
+.follow-me{
+    border: 1px solid #ddd;
+    padding: 0 30px 92px 30px;
+    margin-top: 40px;
+}
+
+
+/* popular-articles css */
+
+.popular-articles .title{
+    color: #2c2f34;
+    font-family: 15px;
+}
+.popular-articles .title-bar::before{
+    background: #2c2f34;
+}
+.popular-articles{
+    border: 1px solid #ddd;
+    padding: 0px 30px 30px 30px;
+    margin-top: 40px;
+}
+.trips-right-item .number{
+    position: absolute;
+    background: #01B7F2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    left: -13px;
+    font-weight: 500;
+    font-size: 18px;
+    top: -8px;
+    border: 2px solid #fff;
+}
+
+/* advertisment css */
+.advertisment{
+    background: url('../images/4.jpg')
+    no-repeat center/cover ;
+    position: relative;
+    padding: 30px;
+    z-index: 1;
+    color: #fff;
+    margin-top: 15px;
+}
+.advertisment::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height:100% ;
+    width:100% ;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
+}
+.advertisment img{
+    width: 150px;
+}
+.advertisment p{
+    font-size: 12px;
+    padding-right: 15px;
+}
+.advertisment a{
+    background: #FDB511;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 50px;
+    padding: 5px 18px;
+}
+.advertisment span{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* follow-twitter css */
+
+.follow-twitter{
+    border: 1px solid #ddd;
+    padding: 0px 30px 30px 30px;
+    margin-top: 40px;
+}
+.follow-twitter .title{
+    color: #2c2f34;
+    font-family: 15px;
+}
+.follow-twitter .title-bar::before{
+    background: #2c2f34;
+}
+.follow-twitter p{
+    font-size: 13px;
+}
+/* <!-- ========= 04. Footer CSS ========== --> */
+
+.col-20{
+    width: 20%;
+    padding: 15px 15px;
+    float: left;
+}
+.footer{
+    background: url('../images/travel-footer-bg.jpg')
+    no-repeat center/cover;
+   padding:50px 30px 20px 30px;
+   position: relative;
+   z-index: 1;
+   color: #fff;
+}
+.footer::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+h4.footer-title {
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h4.footer-title:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 15px;
+    height: 2px;
+    width: 50px;
+    background: #43b8eb;
+}
+
+.footer-tags li a {
+    border: 1px solid #dddddd3b;
+    padding: 2px 6px;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    color: #fff;
+}
+
+.footer-post li {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.footer-destination li {
+    display: block;
+    padding-left: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-destination li:before {
+    position: absolute;
+    content: '>';
+    left: 0;
+    top: 0;
+}
+
+.footer-destination li span {
+    background: #43b8eb;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 4px;
+    margin: 2px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.footer-destination li a {
+    display: inline-block;
+    color: #fff;
+}
+.footer-blog{
+    padding:104px 15px 7px 15px;
+    height: 86%;
+    width: 110%;
+    color: #fff;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.footer-blog::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+.footer-blog-1{
+    background: url(../images/home-slider/1.jpg) no-repeat center/cover;
+}
+.footer-blog-2{
+    background: url(../images/home-slider/2.jpg) no-repeat center/cover;
+}
+.footer-blog-3{
+    background: url(../images/home-slider/3.jpg) no-repeat center/cover;
+}
+.footer-blog-4{
+    background: url(../images/home-slider/4.jpg) no-repeat center/cover;
+}
+.footer-blog-5{
+    background: url(../images/home-slider/5.jpg) no-repeat center/cover;
+}
+
+.footer-blog h4  {
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-blog h4 a{
+    color: #fff ;
+}
+p.copyright {
+    font-size: 13px;
+    padding-top: 40px;
+}
+ul.social-icon {
+    float: right;
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+ul.social-icon a {
+    color: #fff;
+    padding: 2px;
+}
